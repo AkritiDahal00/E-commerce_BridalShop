@@ -1,0 +1,105 @@
+/* .addnav {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    background: #000;
+    border-radius: 6px;
+  }
+  
+  .addnav h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .addnav form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .addnav form div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .addnav form label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .addnav form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .addnav form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+  
+  .addnav button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addnav button:hover {
+    background-color: #0056b3;
+  }
+   */
+   .addnav {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    background: #c3c3c3;
+    border-radius: 6px;
+  }
+
+   .addnav_title{
+    width: 100%;
+    color: #7b7b7b;
+    font-size: 16px;
+}
+.addnav_title input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 15px;
+    border: 1px solid #c3c3c3;
+    outline: none;
+    font-family: 'Poppins';
+    color: #7b7b7b;
+    font-size: 14px;
+}
+.addnav button{
+    margin-top: 20px;
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #0d122e;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    
+}

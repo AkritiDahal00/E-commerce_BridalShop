@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0px 1px 3px -2px #4b4545;
+    margin-bottom: 1px;
+    background-color: #000;
+}
+.admin-logo{
+    background-color: aqua;
+    width: 71px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.nav-logo{
+    width: 200px;
+}
+.navprofile{
+    width: 75px;
+}
+@media (max-width:800px) {
+    .navbar{
+        padding: 15px 30px;
+
+    }
+    .nav-logo{
+        width: 150px;
+    }
+    .navprofile{
+        width: 60px;
+    }
+    
+}

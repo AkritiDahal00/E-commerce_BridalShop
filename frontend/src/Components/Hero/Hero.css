@@ -1,0 +1,159 @@
+.hero{
+    height: 100vh;
+    background:linear-gradient(180deg, #000000, #00000022 90%);
+    display: flex;
+}
+.hero_left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    gap: 11px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+
+.hero_left h2{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero_left p{
+    color: #dfdfdf;
+    font-size: 50px;
+    font-weight: 600;
+}
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.hero-hand-icon img{
+    width: 105px;
+}
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background-color: #0000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.hero_right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero_right img{
+    position: absolute;
+    width: 38%;
+    top: 19%;
+    left: 64%;
+}
+@media(max-width:1280px){
+    .hero_left{
+        padding-left: 100px;
+    }
+    .hero_left h2{
+        font-size: 22px;
+    }
+    .hero_left p{
+        font-size: 58px;
+    }
+    .hero-hand-icon img{
+        width: 75px;
+
+    }
+    .hero-latest-btn{
+        gap: 10px;
+        width: 250px;
+        height: 60px;
+        margin-top: 20px 18px;
+        font-size: 18px;
+    }
+    .hero_right img{
+        width: 500px;
+    }
+}
+
+@media(max-width:1024px){
+    .hero_left{
+        padding-left: 80px;
+    }
+    .hero_left h2{
+        font-size: 20px;
+    }
+    .hero_left p{
+        font-size: 48px;
+    }
+    .hero-hand-icon img{
+        width: 65px;
+
+    }
+    .hero-latest-btn{
+        width: 220px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .hero_right img{
+        width: 350px;
+    }
+}
+
+@media(max-width:800px){
+    .hero_left{
+        padding-left: 30px;
+    }
+    .hero_left h2{
+        font-size: 14px;
+    }
+    .hero_left p{
+        font-size: 38px;
+    }
+    .hero-hand-icon img{
+        width: 47px;
+
+    }
+    .hero-latest-btn{
+        width: 170px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .hero_right img{
+        width: 250px;
+    }
+}
+
+@media(max-width:500px){
+    .hero{
+        flex-direction: column;
+    }
+    .hero_right{
+        display: none;
+    }
+    .hero_left h2{
+        font-size: 18px;
+    }
+    .hero_left p{
+        font-size: 50px;
+    }
+    .hero-hand-icon img{
+        width: 55px;
+    }
+    .hero-latest-btn{
+        width: 200px;
+        height: 45px;
+        font-size: 14px;
+    }
+   
+}
